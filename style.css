@@ -1,0 +1,127 @@
+/*style global*/
+
+@media (max-width: 768px){
+
+body{
+    background-image:url(image/fond.webp) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+}
+
+/*titre*/
+h1{
+    color: #f5f4f3;
+    font-size: 80px;
+    background-color: #0e0d0d;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 3lvh;
+    box-shadow:  10px 10px 20px rgba(0, 0, 0, 0.3)
+
+}
+h2.soustitre{
+    text-align: center;
+    border-radius: 3lvh;
+    box-shadow:  10px 10px 20px rgba(0, 0, 0, 0.3)
+}
+p{
+    color: black;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+
+}
+p.titre{
+    font-size: 40px;
+    color: rgb(252, 247, 247);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: black;
+    background-size: cover;
+    text-align: center;
+    border-radius: 3lvh;
+    box-shadow:  10px 10px 20px rgba(0, 0, 0, 0.3)
+}
+nav.haut{
+    background-color: #f5f4f3;
+    font-size: 30px;
+    color: #110801;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+	display: flex;
+    justify-content: space-between;
+    padding: 1%;
+   
+}
+
+/**fin titre**/
+
+
+/**tout**/
+
+h2{
+    font-size: 35px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/**fin tout**/
+
+
+/**Service**/
+
+div.service{
+    font-size: 20px;
+    background-color:#fa8007;
+    border-radius: 3lvh;
+    box-shadow:  10px 10px 20px rgba(0, 0, 0, 0.3)
+}
+
+h2.service{
+    text-align: center;
+}
+
+h4.service{
+    text-align: center;
+    font-weight: lighter;
+}
+
+/**fin service**/
+
+
+
+
+
+/**section des contacts**/
+
+section.Contact{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/**reseaux**/
+div.réseaux{
+    background-color: #fcfaf9;
+    font-size: 30px;
+    color: #f1f0ee;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+	display: flex;
+    justify-content: center;
+    padding: 1%;
+    gap: 5%;   
+}
+/**reseaux**/
+
+
+/**fin section des contatcs**/
+
+
+
+/**fin page**/
+
+footer{
+    background-color: #f8f7f6;
+    text-align: center;
+    
+}
